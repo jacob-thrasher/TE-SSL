@@ -1,0 +1,35 @@
+seed: 2
+primary_device: 'cuda' 
+output_folder: 
+data:
+  data_root_dir: 
+  dir_to_tsv: 
+  batch_size: 16
+  workers: 4
+model:
+  mri_out: 1024 # default 1024
+  expansion: 8
+  dropout: 0
+  norm_type: Instance
+  activation: relu 
+  head_hid: 512
+  head_out: 128
+  head_type: Single # in [Single, Dual]
+  multimodal: False
+training_parameters:
+  pretrain: # dir to saved model here
+  accum_iter: 8 # Gradient accumulation, Default 8
+  max_iter: 16000
+  epochs: 50
+  paradigm: Contrastive # Cox, CoxReg, Contrastive, DeepHit
+  alpha: 1 # From 1
+  beta: 0.9 # From 0.5
+  contrastive_type: 'TESSL' # self, supervised, TESSL
+optimizer:
+  optim: LARS # SGD, LARS, Adam
+  lr: .15
+  lr_decay: 0.0001
+  momentum: 0.9
+  weight_decay: 0
+  scheduled: False
+
