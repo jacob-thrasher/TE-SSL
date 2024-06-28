@@ -36,7 +36,7 @@ Our data consists of a cohort of 493 unique patients from the ADNI dataset ([lin
 
 ## Discriminative results
 
-Comparison against regular SSL, Event-Aware SSL and No Pretaining baseline. Resutls averaged across 3 seeds
+Comparison against regular SSL, Event-Aware SSL and No Pretaining baseline. Results averaged across 3 seeds
 | Method         | C-td   | IBS    |
 |----------------|--------|--------|
 | No Pretraining | 0.7329 | 0.2099 |
