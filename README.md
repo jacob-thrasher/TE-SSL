@@ -6,7 +6,7 @@ This repository contains supplementary code for [Time and Event-Aware Self-Super
   <img src="figures/tessl.png" width="700">
 </p>
 
-Figure: Schematic diagram of the proposed time- and event-aware SSL, where $~\Delta_{*, *}~$ represents the time difference between two embedded data elements $`z_*`$
+Figure: Schematic diagram of the proposed time- and event-aware SSL, where $`\Delta_{*, *}`$ represents the time difference between two embedded data elements $`z_*`$
 
 
 ## Loss Function
