@@ -6,7 +6,7 @@ This repository contains supplementary code for [Time and Event-Aware Self-Super
   <img src="figures/tessl.png" width="700">
 </p>
 
-Figure: Schematic diagram of the proposed time- and event-aware SSL, where $\Delta_{*, *}$ represents the time difference between two embedded data elements $z_*$
+Figure: Schematic diagram of the proposed time- and event-aware SSL, where $`\Delta_{*, *}`$ represents the time difference between two embedded data elements $`z_*`$
 
 
 ## Loss Function
@@ -36,7 +36,7 @@ Our data consists of a cohort of 493 unique patients from the ADNI dataset ([lin
 
 ## Discriminative results
 
-Comparison against regular SSL, Event-Aware SSL and No Pretaining baseline. Resutls averaged across 3 seeds
+Comparison against regular SSL, Event-Aware SSL and No Pretaining baseline. Results averaged across 3 seeds
 | Method         | C-td   | IBS    |
 |----------------|--------|--------|
 | No Pretraining | 0.7329 | 0.2099 |
