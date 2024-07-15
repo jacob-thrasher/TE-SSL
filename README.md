@@ -54,15 +54,3 @@ t-SNE visualization demonstrates superior seperability for TE-SSL embeddings com
 </p>
 Figure: t-SNE analysis of feature representations captured by the projection head across different SSL frameworks. Individual points, if nto censored, are labeld with different time-to-event groups
 
-## Reference
-```
-@misc{thrasher2024tessltimeeventawareself,
-      title={TE-SSL: Time and Event-aware Self Supervised Learning for Alzheimer's Disease Progression Analysis}, 
-      author={Jacob Thrasher and Alina Devkota and Ahmed Tafti and Binod Bhattarai and Prashnna Gyawali},
-      year={2024},
-      eprint={2407.06852},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2407.06852}, 
-}
-```
