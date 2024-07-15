@@ -1,6 +1,6 @@
 # TE-SSL: Time and Event-Aware Self-Supervised Learning for Alzheimer's Disease Progression Analysis
 
-This repository contains supplementary code for [Time and Event-Aware Self-Supervised Learning for Alzheimer's Disease Progression Analysis](), published in The Medical Image Computing and Computer Assisted Intervention Society (MICCAI) 2024. In this work, we analyze the effect of incorporating time and event labels to a self-supervised pretraining pipeline for survival analysis of Alzheimer's Dementia.
+This repository contains supplementary code for [Time and Event-Aware Self-Supervised Learning for Alzheimer's Disease Progression Analysis](https://arxiv.org/abs/2407.06852), published in The Medical Image Computing and Computer Assisted Intervention Society (MICCAI) 2024. In this work, we analyze the effect of incorporating time and event labels to a self-supervised pretraining pipeline for survival analysis of Alzheimer's Dementia.
 
 <p align="center">
   <img src="figures/tessl.png" width="700">
