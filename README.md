@@ -54,3 +54,30 @@ t-SNE visualization demonstrates superior seperability for TE-SSL embeddings com
 </p>
 Figure: t-SNE analysis of feature representations captured by the projection head across different SSL frameworks. Individual points, if nto censored, are labeld with different time-to-event groups
 
+## Citation
+```
+@InProceedings{10.1007/978-3-031-72390-2_31,
+author="Thrasher, Jacob
+and Devkota, Alina
+and Tafti, Ahmad P.
+and Bhattarai, Binod
+and Gyawali, Prashnna",
+editor="Linguraru, Marius George
+and Dou, Qi
+and Feragen, Aasa
+and Giannarou, Stamatia
+and Glocker, Ben
+and Lekadir, Karim
+and Schnabel, Julia A.",
+title="TE-SSL: Time and Event-Aware Self Supervised Learning for Alzheimer's Disease Progression Analysis",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="324--333",
+abstract="Alzheimer's Disease (AD) represents one of the most pressing challenges in the field of neurodegenerative disorders, with its progression analysis being crucial for understanding disease dynamics and developing targeted interventions. Recent advancements in deep learning and various representation learning strategies, including self-supervised learning (SSL), have shown significant promise in enhancing medical image analysis, providing innovative ways to extract meaningful patterns from complex data. Notably, the computer vision literature has demonstrated that incorporating supervisory signals into SSL can further augment model performance by guiding the learning process with additional relevant information. However, the application of such supervisory signals in the context of disease progression analysis remains largely unexplored. This gap is particularly pronounced given the inherent challenges of incorporating both event and time-to-event information into the learning paradigm. Addressing this, we propose a novel framework, Time and Event-aware SSL (TE-SSL), which integrates time-to-event and event and data as supervisory signals to refine the learning process. Our comparative analysis with existing SSL-based methods in the downstream task of survival analysis shows superior performance across standard metrics. The full code can be found here: https://github.com/jacob-thrasher/TE-SSL.",
+isbn="978-3-031-72390-2"
+}
+
+```
+
