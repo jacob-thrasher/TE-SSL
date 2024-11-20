@@ -3,7 +3,7 @@ import torch
 
 from collections import OrderedDict
 from .modules import OutputHead, DualHeadedProjection, FullModel
-from .models import MRIEncoder, ClinicalDataEncoder, MultiModalFusion
+from .models import MRIEncoder
 
 def prepare_model(mri_out=128, head_hid=200, dropout=0.5, 
     head_out=3, expansion=8, norm_type='Instance', 

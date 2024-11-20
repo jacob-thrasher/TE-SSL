@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader, sampler
 from torchlars import LARS
 from datasets.adni_3d import ADNI_3D
 from models.build_model import *
-from lib.utils import create_exp_folder, make_weights_for_balanced_classes
+from lib.utils import create_exp_folder
 from lib.Loss import RegularizedCoxLoss, SupConLoss, DeepHitSingleLoss, TESSL_Loss
 from models.models import weights_init
 from lib.train_utils import *
@@ -71,7 +71,6 @@ def train_model(cfg):
                         head_out=cfg['model']['head_out'],
                         head_hid=cfg['model']['head_hid'], 
                         head_type=cfg['model']['head_type'],
-                        multimodal=cfg['model']['multimodal'],
                         dropout=cfg['model']['dropout'])
 
     if cfg['training_parameters']['pretrain'] is None:
